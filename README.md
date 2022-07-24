@@ -52,15 +52,15 @@ This classifier can also be known as a Generative Learning Model. The classifica
 Random Forest:
 This classification algorithm are similar to ensemble learning method of classification. The regression and other tasks, work by building a group of decision trees at training data level and during the output of the class, which could be the mode of classification or prediction regression for individual trees. This classifier accuracy for decision trees practice of overfitting the training data set.
 
-#Testing dataset
+# Testing dataset
 Testing of the given url through the deployed website will be predicted whether it is legitimate or not by using Naive Bayes trained model.
 
-#Model Deployment
+# Model Deployment
 Inorer to deploy the model into a web browser flask technology is used.
 
-#Result
+# Result
 Observations:
 By applying vectorization as count vectorizer and training, testing the model with naive bayes gives an accuracy of 98%. In the same way with count vectorizer and Random forest given an accuracy of 86%. With TF-IDF and Naive Bayes the accuracy is 98.1%.
 
-#Conclusion
+# Conclusion
 After training the dataset with Naive Bayes, perceptrons, Random Forest highest accuracy is obtained with Naive Bayes. To provide security to every individual sensitive information every one must know which URL is legitimate and which is not. To learn that this project is best pratice to understand.
