@@ -1,4 +1,3 @@
-# Eagles
 # About
 Phishing attacks are the practice of sending fraudulent communications that appear to come from a reputable source.Phishing URLs mainly target individuals and/or organizations through social engineering attacks by exploiting the humans' weaknesses in information security awareness. Phishing costs Internet users billions of dollars per year. It refers to luring techniques used by identity thieves to fish for personal information in a pond of unsuspecting Internet users. Phishers use spoofed e-mail, phishing software to steal personal information and financial account details such as usernames and passwords.The experiments were carried out on a dataset that originally contained 1056937 labeled URLs (phishing and legitimate). We consider various data mining algorithms for evaluation of the features in order to get a better understanding of the structure of URLs that spread phishing. 
 # Introduction
