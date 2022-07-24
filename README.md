@@ -24,6 +24,11 @@ NLP Vectorization techniques
    Word2Vec
    GloVe
    FastText
+#  Data Set
+Here the train and test data sets will be given individually. The train dataset contains 100860 rows with the information of url and its property(Whether it is lezzitimate or not). By considering the dataset the natural language preprocessing steps like tokenization will be applied.
+The test dataset contains 25220 row with out having the property(labels are not given).
+   
+
 # Dataset Preprocessing
 The given dataset consists of URL's to detect whether the given url is malicious or legitimate. 
 There exists many tokens or special characters which appear most frequently in URL string of phishing sites but not in legitimate sites. This characteristic feature is used to distinguish between phishing sites and legitimate sites. These features check the presence of special characters (@, *, $, :, |, , ’,’, _), phish-hinted words either in the base URL or path of the entire URL string.
@@ -32,6 +37,7 @@ While preprocessing we replaced some special characters like (//,/,-,.) with spa
 For Preprocessing of this dataset we can't use stemming or lemmatization because the context will changes and it throws falls results to the users.
 
 # Vectorization Techniques   
+Generally machines cannot identifies the text data.In order to train the machines we need to convert the text into vectorized from. such that the vectorization techniques comes into exitance.
 TF-IDF:
 TF-IDF or Term Frequency–Inverse Document Frequency, is a numerical statistic that’s intended to reflect how important a word is to a document.
 By using this technique a sparse matrix is generated.By giving this to a models like Naive Bayes etc.. Then the accuracy is 
@@ -52,4 +58,9 @@ Testing of the given url through the deployed website will be predicted whether 
 #Model Deployment
 Inorer to deploy the model into a web browser flask technology is used.
 
-#
+#Result
+Observations:
+By applying vectorization as count vectorizer and training, testing the model with naive bayes gives an accuracy of 98%. In the same way with count vectorizer and Random forest given an accuracy of 86%. With TF-IDF and Naive Bayes the accuracy is 98.1%.
+
+#Conclusion
+After training the dataset with Naive Bayes, perceptrons, Random Forest highest accuracy is obtained with Naive Bayes. To provide security to every individual sensitive information every one must know which URL is legitimate and which is not. To learn that this project is best pratice to understand.
