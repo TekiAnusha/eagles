@@ -60,7 +60,7 @@ Inorer to deploy the model into a web browser flask technology is used.
 
 # Result
 Observations:
-By applying vectorization as count vectorizer and training, testing the model with naive bayes gives an accuracy of 98%. In the same way with count vectorizer and Random forest given an accuracy of 86%. With TF-IDF and Naive Bayes the accuracy is 98.1%.
+Accuracy Metrix is matthews-correlation Coefficient.By applying vectorization as count vectorizer and training, testing the model with naive bayes gives an accuracy of 98%. In the same way with count vectorizer and Random forest given an accuracy of 86%. With TF-IDF and Naive Bayes the accuracy is 98.1%.
 
 # Conclusion
 After training the dataset with Naive Bayes, perceptrons, Random Forest highest accuracy is obtained with Naive Bayes. To provide security to every individual sensitive information every one must know which URL is legitimate and which is not. To learn that this project is best pratice to understand.
