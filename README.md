@@ -30,11 +30,14 @@ There exists many tokens or special characters which appear most frequently in U
 While preprocessing we replaced some special characters like (//,/,-,.) with space(' ').
 
 For Preprocessing of this dataset we can't use stemming or lemmatization because the context will changes and it throws falls results to the users.
-# Vectorization Techniques
+# Vectorization Techniques   
 TF-IDF:
 TF-IDF or Term Frequency–Inverse Document Frequency, is a numerical statistic that’s intended to reflect how important a word is to a document.
 By using this technique a sparse matrix is generated.By giving this to a models like Naive Bayes etc.. Then the accuracy is 
 
 Count Vectorizer:
+CountVectorizer Means Breaking Down A Sentence Or Any Text Into Words By Performing Preprocessing Tasks Like Converting All Words To Lowercase, Thus Removing Special Characters.
+
+
    
 
