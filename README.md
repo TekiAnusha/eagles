@@ -1,4 +1,4 @@
-# eagles
+# Eagles
 # About
 Phishing attacks are the practice of sending fraudulent communications that appear to come from a reputable source.Phishing URLs mainly target individuals and/or organizations through social engineering attacks by exploiting the humans' weaknesses in information security awareness. Phishing costs Internet users billions of dollars per year. It refers to luring techniques used by identity thieves to fish for personal information in a pond of unsuspecting Internet users. Phishers use spoofed e-mail, phishing software to steal personal information and financial account details such as usernames and passwords.The experiments were carried out on a dataset that originally contained 1056937 labeled URLs (phishing and legitimate). We consider various data mining algorithms for evaluation of the features in order to get a better understanding of the structure of URLs that spread phishing. 
 # Introduction
@@ -38,6 +38,9 @@ By using this technique a sparse matrix is generated.By giving this to a models 
 Count Vectorizer:
 CountVectorizer Means Breaking Down A Sentence Or Any Text Into Words By Performing Preprocessing Tasks Like Converting All Words To Lowercase, Thus Removing Special Characters.
 
+# Training dataset
+Naive Bayes:
+This classifier can also be known as a Generative Learning Model. The classification here is based on Bayes Theorem, it assumes independent predictors. In simple words, this classifier will assume that the existence of specific features in a class is not related to the existence of any other feature. If there is dependency among the features of each other or on the presence of other features, all of these will be considered as an independent contribution to the probability of the output. This classification algorithm is very much useful to large datasets and is very easy to use. 
 
-   
-
+Random Forest:
+This classification algorithm are similar to ensemble learning method of classification. The regression and other tasks, work by building a group of decision trees at training data level and during the output of the class, which could be the mode of classification or prediction regression for individual trees. This classifier accuracy for decision trees practice of overfitting the training data set.
