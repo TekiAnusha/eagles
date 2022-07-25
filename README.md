@@ -63,3 +63,17 @@ Accuracy Metrix is matthews-correlation Coefficient.By applying vectorization as
 
 # Conclusion
 After training the dataset with Naive Bayes, perceptrons, Random Forest highest accuracy is obtained with Naive Bayes. To provide security to every individual sensitive information every one must know which URL is legitimate and which is not. To learn that this project is best pratice to understand.
+
+#Input and Output Images
+INPUT-1
+![Screenshot (106)](https://user-images.githubusercontent.com/109868566/180846205-e36bcf98-821b-4c79-9f86-655d2f4a55bb.png)
+OUTPUT-1
+![Screenshot (108)](https://user-images.githubusercontent.com/109868566/180846361-d596fb19-2005-4ef9-a137-c7561bf48643.png)
+INPUT-2
+![Screenshot (109)](https://user-images.githubusercontent.com/109868566/180846438-ad8ba8a9-1ba7-4d4d-8d29-1de243eaf6c8.png)
+OUTPUT-2
+![Screenshot (110)](https://user-images.githubusercontent.com/109868566/180846548-6d9f1a72-4a79-483c-92f4-1918e993aa90.png)
+
+
+
+
